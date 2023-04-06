@@ -112,12 +112,13 @@ In the [examples](https://github.com/AuthenticExecution/examples) repository we 
 
 - [FOSDEM 21: An Open-Source Framework for Developing Heterogeneous Distributed Enclave Applications](https://fosdem.org/2021/schedule/event/tee_sancus/)
 
+## Formal Definition and Proof of Security Properties
+
+The STM'17 paper comes with an extended [appendix](secargument.pdf) in which we
+focus on defining a simple reactive programming language for our architecture,
+the formal semantics of that programming language, and the formal definition and
+proof of the security properties of our approach.
+
 ## License
 
 All the (non-forked) repositories in this organization are under MIT license. Forked repositories retain the license of the original ones, with the exception of `reactive-tools` that has been relicensed under MIT. External libraries and other code have their own license.
-
-## TODO
-
-- Open source + document the Attestation Manager
-- TrustZone: implement developer API
-- Sancus: port to latest `sancus-riot`, enable availability support using Aion
